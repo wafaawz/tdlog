@@ -4,3 +4,4 @@ class Weapon:
         self._range=range
     def fire_at(self,x,y,z):
         print( "the weapon will fire at "(x,y,z))
+        print('a')
