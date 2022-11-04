@@ -1,14 +1,14 @@
-from TDLOG import Weapon
-from TDLOG import LT
-from TDLOG import LMAA
-from TDLOG import LMAS
-from TDLOG import Vessel
-from TDLOG import Cruiser
-from TDLOG import Fregate
-from TDLOG import Submarine
-from TDLOG import Destroyer
-from TDLOG import Aircraft
-from TDLOG import Espace
+from weapon import Weapon
+from weapon import LT
+from weapon import LMAA
+from weapon import LMAS
+from vessel import Vessel
+from vessel import Cruiser
+from vessel import Fregate
+from vessel import Submarine
+from vessel import Destroyer
+from vessel import Aircraft
+from espace import Espace
 a=Weapon(30,40)
 a.fire_at(0,0,0)
 b=LMAA()
@@ -27,6 +27,7 @@ A=Espace(1,2,1,[e])
 A.ajouter(f)
 print(A._listeV)
 A.recevoircoup(2,3,0)
+
 
 
 
